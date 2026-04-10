@@ -76,7 +76,7 @@ class Notes {
 
 			if (arr[top[0]][top[1]].equals("F")) {
 				if (top[2] < smallest) {
-					smallest = top[2];
+					smallest = top[2]; //return here instead of replacing smallest
 				}
 			}
 
